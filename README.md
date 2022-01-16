@@ -3,7 +3,7 @@ This is a command line tool that shuffles a public/preexisting Spotify playlist 
 ## Usage/Setup
 Create a new Spotify developer application at the following link: https://developer.spotify.com/dashboard/applications.
 
-Within main.py, edit the code block (lines 89 - 90) below with the correct information found at the above link.
+Within main.py, edit the code block (lines 89 - 90) below with your own **client_id** and **client_secret** found at the above link.
 ```
 client = spot.Spotify(auth_manager=spot.SpotifyOAuth(client_id='enter within quotes', 
                     client_secret='enter within quotes',
